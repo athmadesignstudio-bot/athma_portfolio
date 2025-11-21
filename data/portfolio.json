@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "Modern Villa",
+        "category": "Residential",
+        "image": "images/portfolio-1.png"
+    },
+    {
+        "id": 2,
+        "title": "Urban Loft",
+        "category": "Interior",
+        "image": "images/portfolio-2.png"
+    },
+    {
+        "id": 3,
+        "title": "Corporate HQ",
+        "category": "Commercial",
+        "image": "images/portfolio-3.png"
+    },
+    {
+        "id": 4,
+        "title": "Luxury Spa",
+        "category": "Hospitality",
+        "image": "images/portfolio-4.png"
+    }
+]

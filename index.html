@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Athma Designs | Premium Construction & Interiors</title>
+    <meta name="description"
+        content="Athma Designs - Transforming spaces with luxury construction and interior design solutions.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Outfit:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header id="header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <img src="images/athma_logo.jpg" alt="Adma Designs Logo">
+            </a>
+            <nav class="nav-desktop">
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact" class="btn-primary">Contact Us</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-menu-btn" aria-label="Toggle Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+        <div class="mobile-nav">
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <!-- Lightbox Modal -->
+        <div id="lightbox" class="lightbox">
+            <span class="close">&times;</span>
+            <img class="lightbox-content" id="lightbox-img">
+            <a class="prev">&#10094;</a>
+            <a class="next">&#10095;</a>
+        </div>
+
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="hero-bg"></div>
+            <div class="container hero-content">
+                <h1 class="fade-in-up">Crafting <span class="text-accent">Timeless</span> Spaces</h1>
+                <p class="fade-in-up delay-1">Premium construction and interior design for the modern era.</p>
+                <div class="hero-btns fade-in-up delay-2">
+                    <a href="#portfolio" class="btn-primary">View Our Work</a>
+                    <a href="#contact" class="btn-secondary">Get a Quote</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section about">
+            <div class="container about-grid">
+                <div class="about-image reveal-left">
+                    <div class="img-placeholder">About Image</div>
+                </div>
+                <div class="about-text reveal-right">
+                    <h2 class="section-title">Who We Are</h2>
+                    <p>At Athma Designs, we believe that every space tells a story. With over a decade of experience in
+                        high-end construction and bespoke interior design, we transform visions into tangible realities.
+                    </p>
+                    <p>Our team of architects, designers, and craftsmen work in unison to deliver projects that blend
+                        functionality with breathtaking aesthetics.</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <span class="stat-number">150+</span>
+                            <span class="stat-label">Projects Completed</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="section services">
+            <div class="container">
+                <h2 class="section-title text-center reveal-up">Our Expertise</h2>
+                <div class="services-grid">
+                    <div class="service-card reveal-up delay-1">
+                        <div class="icon">🏗️</div>
+                        <h3>Construction</h3>
+                        <p>From ground-up builds to major renovations, we handle complex construction projects with
+                            precision.</p>
+                    </div>
+                    <div class="service-card reveal-up delay-2">
+                        <div class="icon">🛋️</div>
+                        <h3>Interior Design</h3>
+                        <p>Curating furniture, lighting, and decor to create cohesive and inspiring indoor environments.
+                        </p>
+                    </div>
+                    <div class="service-card reveal-up delay-3">
+                        <div class="icon">📐</div>
+                        <h3>Architecture</h3>
+                        <p>Comprehensive architectural planning and blueprinting for residential and commercial spaces.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="section portfolio">
+            <div class="container">
+                <h2 class="section-title text-center reveal-up">Selected Works</h2>
+                <div class="portfolio-grid" id="portfolio-grid">
+                    <!-- Portfolio items will be loaded dynamically -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact">
+            <div class="container contact-wrapper">
+                <div class="contact-info reveal-left">
+                    <h2 class="section-title">Let's Build Together</h2>
+                    <p>Ready to start your project? Contact us for a consultation.</p>
+                    <ul class="contact-details">
+                        <li><strong>Email:</strong> hello@admadesigns.com</li>
+                        <li><strong>Phone:</strong> +1 (555) 123-4567</li>
+                        <li><strong>Address:</strong> 123 Design District, Creative City</li>
+                    </ul>
+                </div>
+                <form action="https://api.web3forms.com/submit" method="POST" class="contact-form reveal-right">
+                    <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+                    <!-- Optional: Custom Redirection -->
+                    <!-- <input type="hidden" name="redirect" value="https://web3forms.com/success"> -->
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <img src="images/athma_logo.jpg" alt="Adma Designs Logo">
+            </div>
+            <p>&copy; 2025 Athma Designs. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#">Instagram</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
