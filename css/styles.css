@@ -130,12 +130,14 @@ header {
     left: 0;
     width: 100%;
     height: var(--header-height);
-    background-color: rgba(252, 252, 252, 0.95);
+    /* background-color: rgba(252, 252, 252, 0.95); */
+    background-color: #000;
     backdrop-filter: blur(10px);
     z-index: 1000;
     display: flex;
     align-items: center;
     border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    color: var(--color-white);
 }
 
 .header-container {
@@ -535,7 +537,8 @@ header {
 
 /* Footer */
 footer {
-    background-color: var(--color-primary);
+    /* background-color: var(--color-primary); */
+    background-color: #000;
     color: var(--color-white);
     padding: 60px 0;
     text-align: center;
